@@ -2,20 +2,21 @@ Voter turnout in Alberta's provincial elections
 ===============================================
 
 Data and code to visualize:
-1. Voter turnout in Alberta's 2015 provincial election, by electoral district
+
+Voter turnout in Alberta's 2015 provincial election, by electoral district:
 
 ![](/figures/alberta-2015.png)
 
-2. Voter turnout in provincial general elections, all provinces, 1980-2014
+... and voter turnout in provincial general elections, all provinces, 1980-2014:
 
 ![](/figures/all-provs-1980-2014.png)
 
 ## Data sources
 
-#### Alberta 2015:
+##### Alberta 2015:
 - http://resultsnew.elections.ab.ca/orResultsPGE.cfm?EventId=31&bED=11&ED=11
 
-#### All Provinces 1980-2014:
+##### All Provinces 1980-2014:
 - [British Columbia](http://www.elections.bc.ca/docs/stats/bc-voter-participation-1983-2013.pdf) (pdf pg 1)
 - [Alberta](http://www.elections.ab.ca/reports/statistics/overall-summary-of-ballots-cast-and-voter-turnout/) (webpage)
 - [Saskatchewan](http://www.elections.sk.ca/news/what-was-the-voter-turnout-in-previous-saskatchewan-elections/) (webpage)
