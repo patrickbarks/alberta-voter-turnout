@@ -12,9 +12,9 @@ dat
 dat$province <- with(dat, reorder(province, percent.turnout, median))
 
 ## plot voter turnout by province
-png("../figures/voter-turnout-by-prov-1980-2014.png", height = 5, width = 6.5, units = "in", res = 300)
+png("../figures/all-provs-1980-2014.png", height = 5, width = 6.5, units = "in", res = 300)
 ggplot(dat, aes(province, percent.turnout)) +
-       geom_boxplot(fill = "lightblue") +
+       geom_boxplot(fill = "salmon") +
        coord_flip() +
        scale_y_continuous(limits=c(37, 90), labels = function(label) paste(label, "%", sep = "")) +
        xlab(NULL) +

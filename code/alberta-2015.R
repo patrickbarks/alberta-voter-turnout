@@ -81,7 +81,7 @@ p4 <- PlotWrapper(electBoundariesRedDeer, title = "Red Deer", margin.bottom = 0.
 p5 <- PlotWrapper(electBoundariesLethbridge, title = "Lethbridge", margin.bottom = 0.5)
 
 # Plot
-png("../figures/alberta-voter-turnout-2015.png", height = 6.5, width = 9.2, units = "in", res = 300)
+png("../figures/alberta-2015.png", height = 6.5, width = 9.2, units = "in", res = 300)
 pushViewport(viewport(layout = grid.layout(3, 7)))
 print(p1, vp = viewport(layout.pos.row = 1:3, layout.pos.col = 1:3))
 print(p2, vp = viewport(layout.pos.row = 1:2, layout.pos.col = 4:5))
