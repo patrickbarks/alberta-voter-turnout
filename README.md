@@ -1,13 +1,13 @@
-Voter turnout in Alberta's provincial elections
-===============================================
+Voter turnout in Alberta
+========================
 
-Data and code to visualize:
+##### Data and code to visualize:
 
-Voter turnout in Alberta's 2015 provincial election, by electoral district:
+###### Voter turnout in Alberta's 2015 provincial election, by electoral district
 
 ![](/figures/alberta-2015.png)
 
-... and voter turnout in provincial general elections, all provinces, 1980-2014:
+###### and voter turnout in provincial general elections, all provinces, 1980-2014
 
 ![](/figures/all-provs-1980-2014.png)
 
